@@ -1,0 +1,37 @@
+#app {
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  width: 1000px;
+  height: 500px;
+}
+
+#search {
+  width: 49%;
+}
+
+#movie-table {
+  width: 50%;
+  margin-top: 10px;
+}
+
+#bar {
+  position: relative;
+  display: inline;
+}
+
+th {
+  background-color: rgb(219, 219, 255);
+}
+
+#clear {
+  position: absolute;
+  border-radius: 10px;
+  left: 470px;
+  z-index: 2;
+  border: none;
+  top: 2px;
+  line-height: 16px;
+  cursor: pointer;
+  transform: translateX(2px);
+}

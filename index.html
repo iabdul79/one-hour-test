@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <div id="app">
+        <div id="bar">
+          <input id="search" type="text" placeholder="Search movie" onkeypress="search()">
+          <button id="clear">X</button>
+        </div>
+        <select id="sort" onchange="sort()">
+          <option value="">Select</option>
+          <option value="title">Title</option>
+          <option value="rating">Rating</option>
+          <option value="release">Year</option>
+        </select>
+        <table id="movie-table">
+        </table>
+      </div>
+      <script src="/js/main.js"></script>
+    </body>
+</html>
